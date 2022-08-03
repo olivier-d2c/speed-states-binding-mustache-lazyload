@@ -1,0 +1,13 @@
+
+
+/* testing so once that file is loaded it will change the background of the entire page */
+
+body{
+   background: #fff;
+   animation: smooth-color 5s ease-out 1 forwards;
+}
+
+@keyframes smooth-color {
+   from {background-color: #fff;}
+   to {background-color: #000;}
+ }
