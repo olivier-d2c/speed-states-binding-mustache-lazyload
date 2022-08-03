@@ -50,7 +50,7 @@ const gwidth = (el) => {
 const Appz = async () => {
     if(window.appz === undefined){
         while(true){
-            await sleep(2000)
+            await sleep(50)
             if(window.appz !== undefined){
                 return window.appz
             }

@@ -401,7 +401,7 @@ HTML));
               <div data-binded="slider.flowers"></div>        
               <button class="clear" data-action="delete" data-prop="slider.flowers">clear state</button>
           </div>    
-          <div class="text infos" data-binded="slider.flowers" data-templated="@slider.html.php?prop=slider.flowers">
+          <div class="text infos" data-binded="slider.flowers" data-templated="@slider.html.php?prop=slider.flowers&interval=6000">
             <div class="loading"></div>
           </div>
       </div>
